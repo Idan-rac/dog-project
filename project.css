@@ -1,9 +1,4 @@
-div{
-    border-style: solid;
-    border-color: black;
-    background-color:#0b63a7 ;
-    margin-bottom: 20px;
-}
+
 
 h1{
     color: 000000;
@@ -11,6 +6,9 @@ h1{
 }
 
 body{
+    margin: 0; /* מסיר את הריווח הברירת מחדל סביב ה-body */
+  padding: 0; /* מסיר את הריווח הפנימי */
+  font-family: Arial, sans-serif; /* מגדיר גופן נעים לקריאה */
     background-image: url(/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
  
     background-size: cover;
@@ -19,14 +17,35 @@ body{
 }
 
 
-button{
-    border: 7px;
-    border-radius: 4px;
-    padding: 8px;
-    border-radius: 8px;
-    box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: larger;
-    justify-content: center;
-    align-items: center;
+.one{
+        width: 1900PX;
+        border: 20x solid black;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;    
+        flex-direction:row;
+        justify-content: space-evenly;
+        /* background-color: rgb(1, 14, 22); */
+        margin: 40px;
 
+      }
+
+
+.two {
+    /* background-color: aqua; */
+    width: 200px;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid rgb(57, 116, 62);
+    
+}
+
+
+
+.dog{
+    background-image: url(dog.jpg);
+    background-size: cover;
 }
