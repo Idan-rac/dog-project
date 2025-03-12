@@ -1,0 +1,32 @@
+div{
+    border-style: solid;
+    border-color: black;
+    background-color:#0b63a7 ;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: 000000;
+    text-align: center;
+}
+
+body{
+    background-image: url(/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+ 
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+
+button{
+    border: 7px;
+    border-radius: 4px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow:  0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+
+}
